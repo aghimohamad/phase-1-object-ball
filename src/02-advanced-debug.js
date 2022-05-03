@@ -3,6 +3,7 @@ debugger
 
 // first, define the function.
 function goodPractices() {
+  
   let game = gameObject();
   for (let gameKey in game) {
     // are you ABSOLUTELY SURE what 'gameKey' is?
@@ -19,6 +20,7 @@ function goodPractices() {
       let data = teamObj.player
       for (let key in data) {
         debugger
+        console.log(key)
       }
     }
   }
